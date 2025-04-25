@@ -2,20 +2,30 @@
 @tailwind components;
 @tailwind utilities;
 
-*, *::after, *::before{
+*, *::after, *::before {
   box-sizing: border-box;
 }
 
 :root {
-  --background-color: 200, 100%, 85%;
-  --foreground-color: 200, 100%, 10%; 
-  --foreground-secondary-color: 200, 100%, 20%
-  --even-row-color: 200, 60%, 70%
-  --odd-row-color: 200, 60%, 75%
+  /* Keep your foreground colors for text and other elements */
+  --foreground-color: 200, 80%, 80%;
+  --foreground-secondary-color: 200, 60%, 60%;
+  --even-row-color: 200, 30%, 25%;
+  --odd-row-color: 200, 30%, 30%;
 }
 
 body {
   margin: 0;
-  background-color: hsl(var(--background-color));
+  /* Remove the background-color property if you have it */
+  /* background-color: hsl(var(--background-color)); */
   color: hsl(var(--foreground-color));
+
+  /* Add background image */
+  background-image: url('../assets/philip.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+
+  /* Optional background image properties */
+  background-size: cover; /* Cover the entire background */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: center center; /* Center the image */
+  background-attachment: fixed; /* Make the background image fixed while scrolling */
 }
