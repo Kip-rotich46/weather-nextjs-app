@@ -8,10 +8,7 @@ In this Next.js project, a weather app is developed with Tailwind CSS and Open-M
 
 ### Live Demo
 
-You can try out the live demo of the Weather App by visiting the following link:
-
-[Live Demo]([[https://your-live-demo-link.com](https://weather-nextjs-app-two.vercel.app/)])
-
+You can check out the live demo of the app here: [Weather App Demo](https://weather-nextjs-app-two.vercel.app/)
 
 ![Screenshot](public/images/snapshot-1.png)
 <p float="left" align="center">
